@@ -83,7 +83,7 @@ function Contact() {
     return (
         <div className="content-section" id="contact">
             <h2>Contact Us</h2>
-            <p>Interested in our services or have questions? Contact us at <a href="mailto:info@xyz.com">info@aihealthcare.com</a> to learn more.</p>
+            <p>Interested in our services or have questions? Contact us at <a href="mailto:info@xyz.com">info@xyz.com</a> to learn more.</p>
         </div>
     );
 }
