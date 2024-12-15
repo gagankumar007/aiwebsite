@@ -10,10 +10,6 @@ function Navbar() {
                 <a href="#services">Services</a>
                 <a href="#contact">Contact</a>
             </div>
-            <div className="buttons">
-                {/* Changed to a button or add a real href if needed */}
-                <button onClick={() => window.location.href='/booking'} className="button">Book Now</button>
-            </div>
         </div>
     );
 }
