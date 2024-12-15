@@ -11,7 +11,8 @@ function Navbar() {
                 <a href="#contact">Contact</a>
             </div>
             <div className="buttons">
-                <a href="/booking" className="button">Book Now</a>
+                {/* Changed to a button or add a real href if needed */}
+                <button onClick={() => window.location.href='/booking'} className="button">Book Now</button>
             </div>
         </div>
     );
@@ -39,7 +40,7 @@ function About() {
         <div className="content-section" id="about">
             <h2>About Us</h2>
             <p>
-                Artificial intelligence (AI) has become a ubiquitous presence streamlining tasks across various sectors including the medical field. Leveraging the comprehensive medical knowledge typically encountered during both undergraduate and some postgraduate medical education, this AI has been meticulously trained. It utilizes Python, a versatile programming language, to adeptly conduct medical histories mirroring the nuances of patient interactions. The AI’s capabilities are further refined through reinforcement learning, a process bolstered by human feedback. During this training, the AI is presented with simulated patient histories, tasked with diagnosing conditions and recommending treatments. This AI only deals with medical elective services (OPD services).
+                Artificial intelligence (AI) has become a ubiquitous presence streamlining tasks across various sectors including the medical field. Leveraging the comprehensive medical knowledge typically encountered during both undergraduate and some postgraduate medical education, this AI has been meticulously trained. It utilizes Python, a versatile programming language, to adeptly conduct medical histories mirroring the nuances of patient interactions. The AI's capabilities are further refined through reinforcement learning, a process bolstered by human feedback. During this training, the AI is presented with simulated patient histories, tasked with diagnosing conditions and recommending treatments. This AI only deals with medical elective services (OPD services).
             </p>
             <div className="read-more">
                 <button onClick={toggleReadMore}>{showMore ? 'Read Less' : 'Read More'}</button>
@@ -50,7 +51,7 @@ function About() {
                     <ul>
                         <li>Conducting detailed medical histories through conversations in Hindi, Punjabi, and English.</li>
                         <li>Diagnosing medical conditions and proposing appropriate treatment plans.</li>
-                        <li>Suggesting medical tests that align with the patient’s history.</li>
+                        <li>Suggesting medical tests that align with the patient's history.</li>
                         <li>Analyzing medical test results to confirm diagnoses, ensuring a comprehensive and reliable medical evaluation.</li>
                         <li>After consultation, the AI generates a PDF file of the full prescription encompassing patient details, diagnosis, medical test, and treatment plans which is downloaded by the patient.</li>
                     </ul>
@@ -95,82 +96,9 @@ function Footer() {
     );
 }
 
-function Login() {
-    return (
-        <div className="content-section">
-            <h2>Login / Sign Up</h2>
-            <div className="services-columns">
-                <div className="services-column">
-                    <h3>For Individuals</h3>
-                    <form>
-                        <label>Name:</label>
-                        <input type="text" required /><br /><br />
-                        <label>Age:</label>
-                        <input type="number" required /><br /><br />
-                        <label>Sex:</label>
-                        <select required>
-                            <option value="male">Male</option>
-                            <option value="female">Female</option>
-                            <option value="other">Other</option>
-                        </select><br /><br />
-                        <label>Address:</label>
-                        <input type="text" required /><br /><br />
-                        <label>Date of Birth:</label>
-                        <input type="date" required /><br /><br />
-                        <label>Email ID:</label>
-                        <input type="email" required /><br /><br />
-                        <label>Phone Number:</label>
-                        <input type="tel" required /><br /><br />
-                        <label>Password:</label>
-                        <input type="password" required /><br /><br />
-                        <label>Confirm Password:</label>
-                        <input type="password" required /><br /><br />
-                        <button type="submit">Register</button>
-                    </form>
-                </div>
-                <div className="services-column">
-                    <h3>For Businesses</h3>
-                    <form>
-                        <label>Company Name:</label>
-                        <input type="text" required /><br /><br />
-                        <label>Organisation ID:</label>
-                        <input type="text" required /><br /><br />
-                        <label>Password:</label>
-                        <input type="password" required /><br /><br />
-                        <label>Confirm Password:</label>
-                        <input type="password" required /><br /><br />
-                        <button type="submit">Register</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    );
-}
-
-function Booking() {
-    return (
-        <div className="content-section">
-            <h2>Book a Consultation</h2>
-            <form>
-                <label>Name:</label>
-                <input type="text" required /><br /><br />
-                <label>Age:</label>
-                <input type="number" required /><br /><br />
-                <label>Sex:</label>
-                <select required>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Other</option>
-                </select><br /><br />
-                <label>Address:</label>
-                <input type="text" required /><br /><br />
-                <label>Date of Birth:</label>
-                <input type="date" required /><br /><br />
-                <button type="submit">Pay Now</button>
-            </form>
-        </div>
-    );
-}
+// If you want to use these components, import them in App or remove them
+// function Login() { ... }
+// function Booking() { ... }
 
 function App() {
     return (
