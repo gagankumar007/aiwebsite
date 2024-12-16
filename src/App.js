@@ -20,6 +20,7 @@ function HeroSection() {
             <div>
                 <h1>Welcome To Pulseinnovas</h1>
                 <p>Democratizing Healthcare with the Power of Artificial Intelligence</p>
+
             </div>
         </div>
     );
@@ -87,7 +88,12 @@ function Contact() {
 function Footer() {
     return (
         <div className="footer">
-            <p>Pulseinnovas &copy; 2024. All rights reserved.</p>
+            <div className="flex justify-center">
+                <p className="text-blue-500">Pulseinnovas &copy; 2024. All rights reserved.</p>
+
+            </div>
+
+
         </div>
     );
 }
