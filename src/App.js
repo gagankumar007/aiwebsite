@@ -23,7 +23,7 @@ function HeroSection() {
         <div className="hero-section">
             <div>
                 <h1>Welcome To Pulseinnovas</h1>
-                <p>Transforming Healthcare with the Power of Artificial Intelligence</p>
+                <p>Democratizing Healthcare with the Power of Artificial Intelligence</p>
             </div>
         </div>
     );
@@ -91,7 +91,7 @@ function Contact() {
 function Footer() {
     return (
         <div className="footer">
-            <p>AI Healthcare &copy; 2024. All rights reserved.</p>
+            <p>Pulseinnovas &copy; 2024. All rights reserved.</p>
         </div>
     );
 }
@@ -114,3 +114,4 @@ function App() {
 }
 
 export default App;
+
