@@ -2,16 +2,28 @@ import React, { useState } from 'react';
 import './App.css';
 
 function Navbar() {
-    return (
-        <div className="navbar">
-            <div>
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#services">Services</a>
-                <a href="#contact">Contact</a>
+        return (
+          <header className="flex justify-between items-center px-8 py-4 bg-white shadow-md">
+            <div className="text-2xl font-bold">
+            Pulseinnovas
             </div>
-        </div>
-    );
+            <nav className="flex space-x-6">
+              <a href="#home" className="text-gray-700 hover:underline">
+                Home
+              </a>
+              <a href="#about" className="text-gray-700 hover:underline">
+                About
+              </a>
+              <a href="#services" className="text-gray-700 hover:underline">
+                Services
+              </a>
+              <a href="#contact" className="text-gray-700 hover:underline">
+                Contact
+              </a>
+            </nav>
+          </header>
+        ); 
+      
 }
 
 function HeroSection() {
