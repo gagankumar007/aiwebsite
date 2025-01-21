@@ -18,7 +18,7 @@ function App() {
             </div>
 
             {/* About Us Section */}
-            {/* <div className="content-section" id="about">
+            <div className="content-section" id="about">
                 <h2>About Us</h2>
                 <p>
                     Artificial intelligence (AI) has become a ubiquitous presence streamlining tasks across various sectors including the medical field. Leveraging the comprehensive medical knowledge typically encountered during both undergraduate and some postgraduate medical education, this AI has been meticulously trained. It utilizes Python, a versatile programming language, to adeptly conduct medical histories mirroring the nuances of patient interactions. The AI's capabilities are further refined through reinforcement learning, a process bolstered by human feedback. During this training, the AI is presented with simulated patient histories, tasked with diagnosing conditions and recommending treatments. This AI only deals with medical elective services (OPD services).
@@ -38,10 +38,10 @@ function App() {
                         </ul>
                     </div>
                 )}
-            </div> */}
+            </div>
 
             {/* Services Section */}
-            {/* <div className="content-section" id="services">
+            <div className="content-section" id="services">
                 <h2>Our Services</h2>
                 <div className="services-columns">
                     <div className="services-column">
@@ -53,13 +53,13 @@ function App() {
                         <p>We loan out our AI medical care API to customers on a contract basis. Our AI is trained in space medical data to handle medical conditions in space and deep space (Moon and Mars).</p>
                     </div>
                 </div>
-            </div> */}
+            </div>
 
             {/* Contact Section */}
-            {/* <div className="content-section" id="contact">
+            <div className="content-section" id="contact">
                 <h2>Contact Us</h2>
                 <p>Interested in our services or have questions? Contact us at <a href="mailto:info@pulseinnovas.com">info@pulseinnovas.com</a> to learn more.</p>
-            </div> */}
+            </div>
 
             {/* Footer Section */}
             <div className="footer">
