@@ -10,7 +10,6 @@ function Navbar() {
                 <Link to="/service">Services</Link>
                 <Link to="/contact">Contact</Link>
                 <Link to="/privacy-policy">Privacy policy</Link>
-                <Link to="/chat">chat hai ya</Link>
             </div>
         </div>
     );
