@@ -1,12 +1,8 @@
-import React, { useState } from 'react';
-import { Activity, Mail } from 'lucide-react';
+
+import { Activity,  } from 'lucide-react';
 
 function App() {
-    const [showMore, setShowMore] = useState(false);
 
-    const toggleReadMore = () => {
-        setShowMore(!showMore);
-    };
     const handleCardClick = () => {
         window.location.href = "/AppPage";
     };
