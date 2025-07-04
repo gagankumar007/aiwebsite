@@ -7,6 +7,7 @@ import About from './pages/About';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import Contact from './pages/Contact';
 import Services from './pages/Services';
+import AppPage from './pages/AppPage';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
         <Routes>
             <Route path="/" element={<HeroSection />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path='/AppPage' element={<AppPage />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/service" element={<Services />} />
