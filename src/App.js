@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from './component/Navbar';
 import HeroSection from './component/HeroSection';
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsandCondition from './pages/TermsAndCondition';
+import CancelAndRefund from './pages/ConcelAndRefund';
 import About from './pages/About';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import Contact from './pages/Contact';
@@ -16,6 +18,8 @@ function App() {
         <Routes>
             <Route path="/" element={<HeroSection />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-and-condition" element={<TermsandCondition />} />
+            <Route path="/cancel-and-refund" element={<CancelAndRefund />} />
             <Route path='/AppPage' element={<AppPage />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
